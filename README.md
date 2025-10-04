@@ -84,6 +84,7 @@ Open your browser and visit:
 http://localhost:8089
 
 ## 📁 Project Structure
+```bash
 SpringBoot-Fullstack-UserPortal/
 ├── pom.xml
 ├── screenshots/
@@ -102,8 +103,7 @@ SpringBoot-Fullstack-UserPortal/
 │   └── test/
 ├── LICENSE
 └── README.md
-
-
+```
 
 ## 📦 API & Views
 
