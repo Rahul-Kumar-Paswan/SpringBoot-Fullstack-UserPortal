@@ -3,6 +3,7 @@
 SpringBoot-Fullstack-UserPortal is a full-stack user management application built with Spring Boot, Thymeleaf, and MySQL.
 
 ![output](screenshots/maven-home-page.png)
+_For more UI pages, check the [`/screenshots`](./screenshots) folder._
 
 ## 🖥️ Project Overview
 
@@ -105,15 +106,11 @@ SpringBoot-Fullstack-UserPortal/
 └── README.md
 ```
 
-## 📦 API & Views
-
-User Registration → /register
-
-Login/Logout → /login, /logout
-
-Dashboard (post-login) → /dashboard
-
-Contact Page → /contact
+## ✨ Features
+- User Registration → /register  
+- Login/Logout → /login, /logout  
+- Dashboard (post-login) → /dashboard  
+- Contact Page → /contact  
 
 ## 🔮 Roadmap
 
