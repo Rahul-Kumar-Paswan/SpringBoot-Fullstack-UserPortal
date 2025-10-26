@@ -3,11 +3,11 @@
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/Rahul-Kumar-Paswan/SpringBoot-Fullstack-UserPortal)
 [![Contributors](https://img.shields.io/github/contributors/Rahul-Kumar-Paswan/SpringBoot-Fullstack-UserPortal?color=blue)](https://github.com/Rahul-Kumar-Paswan/SpringBoot-Fullstack-UserPortal/graphs/contributors)
 [![AWS](https://img.shields.io/badge/AWS-EKS|EC2|IRSA-orange?logo=amazon-aws&logoColor=white)]
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)]
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-EKS-brightgreen?logo=kubernetes&logoColor=white)]
-[![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform)]
-[![CI/CD](https://img.shields.io/badge/Jenkins-CI%2FCD-orange?logo=jenkins)]
-[![License](https://img.shields.io/badge/License-MIT-yellow)]
+![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-EKS-brightgreen?logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform)
+![CI/CD](https://img.shields.io/badge/Jenkins-CI%2FCD-orange?logo=jenkins)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 A production-grade **DevOps** project that automates the provisioning of a complete **3-tier AWS infrastructure** for a **SpringBoot Fullstack User Portal** using **Terraform**, orchestrated with a **Jenkins CI/CD pipeline** to create or destroy environments on demand.
