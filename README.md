@@ -2,8 +2,7 @@
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/Rahul-Kumar-Paswan/SpringBoot-Fullstack-UserPortal)
 [![Contributors](https://img.shields.io/github/contributors/Rahul-Kumar-Paswan/SpringBoot-Fullstack-UserPortal?color=blue)](https://github.com/Rahul-Kumar-Paswan/SpringBoot-Fullstack-UserPortal/graphs/contributors)
-[![Contributors](https://img.shields.io/github/contributors/Rahul-Kumar-Paswan/SpringBoot-Fullstack-UserPortal?color=blue)](https://github.com/Rahul-Kumar-Paswan/SpringBoot-Fullstack-UserPortal/graphs/contributors)
-[![AWS](https://img.shields.io/badge/AWS-EKS|EC2|IRSA-orange?logo=amazon-aws&logoColor=white)]
+[![AWS](https://img.shields.io/badge/AWS-EKS%20%7C%20S3%20%7C%20IRSA-orange?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-EKS-brightgreen?logo=kubernetes&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform)
