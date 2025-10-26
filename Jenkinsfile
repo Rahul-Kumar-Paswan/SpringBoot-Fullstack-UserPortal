@@ -133,6 +133,7 @@ pipeline {
                 }
             }
         }
+        
         stage('Deploy to Kubernetes') {
             steps {
                 dir('./k8s/') {
