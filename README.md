@@ -1132,7 +1132,7 @@ Future plans include migrating from **AWS access keys → EC2 instance roles (IA
 ## 📸 Screenshots / Demo
 Access the UI using the frontend service's LoadBalancer IP.
 Below is a sample of the QR Generator UI deployed on EKS.
-![output](screenshots/image9.png)  
+![output](screenshots/maven-home-page.png)  
 _For more UI pages, check the [`/screenshots`](./screenshots) folder._
 
 ---

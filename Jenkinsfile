@@ -133,6 +133,7 @@ pipeline {
                 }
             }
         }
+
         stage('Deploy to Kubernetes') {
             steps {
                 dir('./k8s/') {
@@ -165,6 +166,7 @@ pipeline {
                 }
             }
         }
+        
         stage('Verify Deployment') {
             steps {
                 dir('./k8s/') {
