@@ -1,0 +1,9 @@
+# .dockerignore
+target
+.git
+.gitignore
+README.md
+screenshots
+k8s
+docker-compose.yml
+.env
