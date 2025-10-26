@@ -22,7 +22,6 @@ pipeline {
     }
 
     stages {
-        
         stage("Cleanup Workspace"){
             steps {
                 cleanWs()
@@ -167,7 +166,7 @@ pipeline {
                 }
             }
         }
-
+        
         stage('Verify Deployment') {
             steps {
                 dir('./k8s/') {
