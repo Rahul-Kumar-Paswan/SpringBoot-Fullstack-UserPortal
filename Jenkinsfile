@@ -21,7 +21,6 @@ pipeline {
         MYSQL_DB_NAME           = "userportal_db"
     }
 
-
     stages {
         stage("Cleanup Workspace"){
             steps {
