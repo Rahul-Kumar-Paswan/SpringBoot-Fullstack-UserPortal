@@ -21,7 +21,6 @@ pipeline {
         MYSQL_DB_NAME           = "userportal_db"
     }
 
-
     stages {
         stage("Cleanup Workspace"){
             steps {
@@ -31,7 +30,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'cicd', credentialsId: 'git-token', url: 'https://github.com/Rahul-Kumar-Paswan/SpringBoot-Fullstack-UserPortal.git'
+                git branch: 'main', credentialsId: 'git-token', url: 'https://github.com/Rahul-Kumar-Paswan/SpringBoot-Fullstack-UserPortal.git'
             }
         }
 
