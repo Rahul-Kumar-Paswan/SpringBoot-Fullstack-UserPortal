@@ -31,7 +31,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'cicd', credentialsId: 'git-token', url: 'https://github.com/Rahul-Kumar-Paswan/SpringBoot-Fullstack-UserPortal.git'
+                git branch: 'main', credentialsId: 'git-token', url: 'https://github.com/Rahul-Kumar-Paswan/SpringBoot-Fullstack-UserPortal.git'
             }
         }
 
