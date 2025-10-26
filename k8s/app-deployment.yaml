@@ -1,0 +1,74 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: userportal-app
+  namespace: prod
+  labels:
+    app: userportal
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: userportal
+  template:
+    metadata:
+      labels:
+        app: userportal
+    spec:
+      containers:
+        - name: userportal-app
+          image: ${DOCKER_IMAGE}
+          ports:
+            - containerPort: 8089
+          env:
+            - name: DB_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: userportal-config
+                  key: DB_HOST
+            - name: DB_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: userportal-config
+                  key: DB_PORT
+            - name: DB_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: userportal-config
+                  key: DB_NAME
+            - name: DB_USER
+              valueFrom:
+                configMapKeyRef:
+                  name: userportal-config
+                  key: DB_USER
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-secret
+                  key: DB_PASSWORD
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 8089
+            initialDelaySeconds: 30
+            periodSeconds: 10
+            timeoutSeconds: 5
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8089
+            initialDelaySeconds: 15
+            periodSeconds: 10
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: userportal-service
+  namespace: prod
+spec:
+  selector:
+    app: userportal
+  ports:
+    - port: 80
+      targetPort: 8089
+  type: LoadBalancer
