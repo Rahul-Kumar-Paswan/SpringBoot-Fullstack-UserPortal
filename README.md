@@ -285,15 +285,8 @@ Before you begin, make sure you have the following **tools**, **accounts**, and 
 > 💡 **Tip:** Ensure your **AWS credentials**, **Docker Hub login**, and **kubeconfig** are properly configured before triggering the Jenkins pipeline.
 
 ---
-## 📂 Project Structure
-
-A quick overview of the key directories and files in the **SpringBoot-Fullstack-UserPortal** repository:
-
----
 
 ## 📂 Project Structure
-
-The **SpringBoot-Fullstack-UserPortal** project follows a clean and modular layout — separating application logic, infrastructure configuration, and deployment assets.
 
 ```bash
 .
@@ -923,8 +916,6 @@ waitForQualityGate abortPipeline: true, credentialsId: 'sonar-token'
 
 ---
 
----
-
 ## 🧱 6. Maven Setup (for Java-based Projects)
 
 ### 🔌 A. Install Maven Plugin
@@ -1102,8 +1093,6 @@ To update or change the Nexus repository IP in your `pom.xml` for Maven deployme
 ✅ **Summary:**  
 This project enforces a secure, auditable DevOps pipeline by managing AWS, Jenkins, Docker, and Kubernetes access with strict credential control and proactive scanning.  
 Future plans include migrating from **AWS access keys → EC2 instance roles (IAM-based access)** for enhanced long-term security and compliance.
-
----
 
 ---
 
